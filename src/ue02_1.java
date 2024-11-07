@@ -7,18 +7,18 @@ public class ue02_1 {
      */
     public static void main(String[] args) {
         Out.println("Gib die Erste Zahl ein: ");
-        int ZahlEins = In.readInt();
+        int NumberOne = In.readInt();
 
         Out.println("Gib die Zweite Zahl ein: ");
-        int ZahlZwei = In.readInt();
+        int NumberTwo = In.readInt();
 
         Out.println("Gib die Dritte Zahl ein: ");
-        int ZahlDrei = In.readInt(); 
+        int NumberThree = In.readInt(); 
 
-if (ZahlEins <= ZahlZwei && ZahlZwei <= ZahlDrei) {
-    Out.print("groesste Zahl ist: " + ZahlDrei);
-} else if (ZahlZwei <= ZahlDrei && ZahlDrei <= ZahlEins) {
-    Out.print("groesste Zahl ist: " + ZahlEins);
-} else if (ZahlDrei <= ZahlZwei && ZahlEins <= ZahlZwei) {
-    Out.print("groesste Zahl ist: " + ZahlZwei); }
+if (NumberThree >= NumberTwo && NumberThree >= NumberOne) {
+    Out.print("Groesste Zahl ist: " + NumberThree);
+} else if (NumberOne >= NumberTwo && NumberOne >= NumberThree) {
+    Out.print("Groesste Zahl ist: " + NumberOne);
+} else if (NumberTwo >= NumberThree && NumberTwo >= NumberOne) {
+    Out.print("Groesste Zahl ist: " + NumberTwo); }
     }}
